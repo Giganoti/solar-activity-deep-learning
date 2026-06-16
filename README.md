@@ -46,19 +46,36 @@ The repository is organized into the following sections:
   Contains the final Master's Thesis report.
 
 * [`notebooks/`](notebooks/)
-  Reserved for exploratory analysis, model experiments or future reproducibility notebooks.
-
-* [`src/`](src/)
-  Reserved for Python scripts related to preprocessing, model training and evaluation.
+  Contains the main Google Colab notebooks developed during the project, including the solar flare prediction workflow and the CME prediction workflow.
 
 * [`figures/`](figures/)
-  Includes selected figures from the project, such as data visualizations, model results and performance comparisons.
+  Includes selected figures from the project, such as satellite data sources, GOES X-ray flux, model results and performance comparisons.
 
 * [`data/`](data/)
-  Describes the satellite data sources used in the project and explains why raw datasets are not included.
+  Describes the satellite data sources used in the project and explains why the raw datasets are not included.
 
 * [`models/`](models/)
-  Documents the neural network architectures explored in the project.
+  Documents the neural network architectures explored in the project, mainly 1D CNN and LSTM models.
+
+* [`src/`](src/)
+  Reserved for future clean Python scripts derived from the notebook workflow.
+
+* [`requirements.txt`](requirements.txt)
+  Lists the main Python libraries used in the project.
+
+## Technical stack
+
+The project was developed mainly in Python using Google Colab notebooks.
+
+The main libraries used include:
+
+* NumPy and Pandas for data manipulation.
+* Matplotlib for visualization.
+* Scikit-learn for preprocessing and evaluation metrics.
+* TensorFlow/Keras for deep learning models.
+* Xarray for handling structured scientific data.
+
+The current repository includes the original notebook-based workflow. Future improvements may include refactoring parts of the notebooks into cleaner Python scripts.
 
 ## Skills demonstrated
 
